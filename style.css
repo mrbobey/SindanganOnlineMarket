@@ -116,6 +116,7 @@ p {
     min-width: 200px;
     margin-bottom: 50px;
     padding: 0 10px;
+    transition: transform 0.5s;
 }
 
 .col-4 img{
@@ -144,6 +145,23 @@ p {
 h4{
     color: #555;
     font-weight: normal;
+}
+
+.col-4 p{
+    font-size: 14px;
+    color: #ff523b;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.rating{
+    color: #ff523b;
+    font-size: 14px;
+
+}
+.col-4:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
 
 /* #endregion  */
