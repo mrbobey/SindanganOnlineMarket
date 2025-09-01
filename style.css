@@ -171,20 +171,25 @@ h4{
     margin-top: 80px;
     padding: 30px 0;
 }
-.offer .row{
-    display: flex;
-    align-items: center;
-    gap: 24px;
-    flex-wrap: wrap;
+
+.small-container .row .col-2 {
+    flex: 1;
 }
 
-.offer .col-2 {
-    flex: 1 1 380px;
-    min-width: 0;
+.small-container .row .col-2:first-child {
+    flex: 0.8;
 }
 
-.row .col-2 {
-    overflow-wrap: anywhere;
+.small-container .row .col-2:last-child {
+    flex: 1.2;
+    display: block;
+}
+
+
+.col-2 img {
+    width: 350px;
+    height: 100%;
+    object-fit: cover;
 }
 
 small{
