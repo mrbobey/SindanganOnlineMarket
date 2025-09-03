@@ -315,3 +315,69 @@ ul {
 .app-logo {
     margin-top: 20px;
 }
+
+.app-logo img {
+    width: 140px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.footer hr {
+    border: none;
+    background: #b5b5b5;
+    margin: 20px 0;
+    height: 1px;
+}
+
+.copyright {
+    text-align: center;
+    color: #8a8a8a;
+}
+
+.menu-icon {
+    width: 28px;
+    margin-left: 20px;
+    display: none;
+}
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 800px) {
+    .navbar nav ul {
+        position: absolute;
+        left: 0;
+        top: 70px;
+        background: #333;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+
+    nav ul li {
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    nav ul li a {
+        color: #fff;
+    }
+
+    .menu-icon {
+        display: block; /* Show menu icon on mobile */
+        cursor: pointer;
+    }
+}   
+
+/* media query for less 600 screen size */
+
+@media only screen and (max-width: 600px) {
+    .row {
+        text-align: center;
+    }
+
+    .col-2, col-3, col-4 {
+        flex-basis: 100%;
+    }
+
+}
