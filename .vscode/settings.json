@@ -1,0 +1,23 @@
+{
+    "highlight-matching-tag.styles": {
+    "opening": {
+      "name": {
+        "underline": "red",
+        "bold": true
+      },
+      "full": {
+        "highlight": "rgba(255, 255, 0, 0.3)"
+      }
+    },
+    "closing": {
+      "name": {
+        "underline": "red",
+        "bold": true
+      },
+      "full": {
+        "highlight": "rgba(255, 255, 0, 0.3)"
+      }
+    }
+}
+
+}
