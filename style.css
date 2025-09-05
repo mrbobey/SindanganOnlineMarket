@@ -369,6 +369,29 @@ ul {
     }
 }   
 
+/* All products */
+
+.row-2 {
+    justify-content: space-between;
+    margin: 100px auto 50px;
+}
+
+select {
+    border: 1px solid #ff523b;
+    padding: 5px;
+}
+
+select:focus {
+    outline: none;
+}
+
+.page-btn {
+    margin-bottom: 80px;
+    margin-left: 0;
+    margin-right: auto;
+    margin-top: 0;
+}
+
 /* media query for less 600 screen size */
 
 @media only screen and (max-width: 600px) {
