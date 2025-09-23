@@ -480,4 +480,16 @@ input:focus {
         flex-basis: 100%;
     }
 
+    .product-details .row {
+        text-align: left;
+    }
+
+    .product-details .col-2 {
+        padding: 20px;
+     }
+
+     input {
+        align-self: flex-start;
+     }
+
 }
