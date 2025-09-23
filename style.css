@@ -71,10 +71,11 @@ p {
     display: inline-block;
     background: #ff523b;
     color: #fff;
-    padding: 8px 30px;
+    padding: 8px 10px;
     margin: 30px 0;
     border-radius: 30px;
     transition: background 0.5s;
+    text-align: center;
 } 
 
 .btn:hover{
@@ -407,6 +408,65 @@ select:focus {
 .page-btn span:hover {
     background: #ff523b;
     color: #fff;
+}
+
+/* single product details */
+
+.product-details {
+display: flex;
+margin-top: 80px;
+
+}
+.product-details .col-2 img {
+    padding: 0;
+    image-rendering: optimizeQuality;
+    width: 100%;
+    size: auto;
+}
+
+.product-details .col-2 {
+    padding: 20px;
+}
+
+.product-details h4 {
+    margin: 20px 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.product-details select {
+    padding: 10px;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.product-details input {
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+    border: 1px solid #ff523b;
+}
+
+input:focus {
+    outline: none;
+}
+
+.product-details  h3 .fa {
+    color: #ff523b;
+    margin-left: 10px;
+}
+
+.small-img-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-img-col {
+    flex-basis: 24%;
+    cursor: pointer;
 }
 
 /* media query for less 600 screen size */
